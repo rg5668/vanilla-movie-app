@@ -6,5 +6,5 @@ export default new Store({
     email: 'rg4093@naver.com',
     blog: 'https://kunheelim.com/',
     github: 'https://github.com/rg5668',
-    repository: 'https://github.com/rg5668/vanillajs-movie-app',
+    repository: 'https://github.com/rg5668/vanilla-movie-app',
 });
