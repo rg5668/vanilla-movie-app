@@ -1,6 +1,15 @@
 import { Store } from '../core';
 
-export default new Store({
+interface State {
+    photo: string;
+    name: string;
+    email: string;
+    blog: string;
+    github: string;
+    repository: string;
+}
+
+export default new Store<State>({
     photo: 'https://kunheelim.com/_next/image?url=%2Fassets%2Fsummer_dog.png&w=256&q=75',
     name: 'Kunhee',
     email: 'rg4093@naver.com',
